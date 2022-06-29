@@ -1,0 +1,21 @@
+// Footer declarations
+footer {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  color: $white;
+  background-color: $black;
+  .footer-logo {
+    width: 40%;
+    max-width: 400px;
+    min-width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .bottom {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}
